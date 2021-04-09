@@ -1,0 +1,82 @@
+
+
+.App {
+  /* text-align: inherit; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  /* width: fit-content; */
+  padding: 2rem;
+  width: 400px;
+  
+  height: 100hv;
+  
+}
+/* input[type='text']{ */
+  .inputbox{
+  font-size: 24px;
+  padding: .67rem;
+  outline: none;
+  background-color: white;
+  border-radius: 7px;
+  border: transparent;
+  
+}
+button{
+  font-size: 30px;
+  margin-top: 1rem;
+  /* padding: 0.65rem; */
+  border: none;
+  background-color: #edeec9;
+  outline: none;
+  
+}
+
+
+
+
+ul{
+  list-style: none;
+  list-style-type: none;
+  list-style: none;
+  list-style-type: none;
+  background-color: #98c9a3;
+  border:none;
+  border-radius: 7px;
+  width: 100%;
+}
+.liststyle{
+  display: flex;
+  justify-content: space-between;
+}
+@media  screen and (max-width:550px) and (min-width:380px) {
+  .App {
+    /* text-align: inherit; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    /* width: fit-content; */
+    padding: 5px;
+    width: 400px;
+    
+    height: 100hv;
+    
+  }
+ 
+}
+@media screen and (max-width:380px) {
+  .App{
+    font-size: 22px;
+    width: fit-content;
+    
+  }
+  .inputbox{
+    font-size: 20px;
+    padding: 0.2rem;
+    width: 200px;
+  }
+}
+
+  
